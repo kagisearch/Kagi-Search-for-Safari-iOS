@@ -123,13 +123,13 @@
 		18E9AB6227A7EF7F0054A23D /* KagiForSafari */ = {
 			isa = PBXGroup;
 			children = (
+				18D6EF9427A8094D0022966C /* Config.xcconfig */,
 				18E9AB6327A7EF7F0054A23D /* AppDelegate.swift */,
 				18E9AB6F27A7EF7F0054A23D /* ViewController.swift */,
 				18E9AB7127A7EF7F0054A23D /* LaunchScreen.storyboard */,
 				18E9AB7427A7EF7F0054A23D /* Main.storyboard */,
 				18E9AB7727A7EF830054A23D /* Assets.xcassets */,
 				18E9AB7827A7EF830054A23D /* Info.plist */,
-				18D6EF9427A8094D0022966C /* Config.xcconfig */,
 				18D6EFA127A80A900022966C /* Localization */,
 				18E9AB6527A7EF7F0054A23D /* Resources */,
 			);
