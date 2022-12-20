@@ -8,7 +8,7 @@ if (window.location.href.startsWith("https://kagi.com/")) {
 			var lastKagiUrl = value.lastKagiUrl;
 			var searchQuery = getParameterByName("q", lastKagiUrl)
 			if (typeof(privateSessionLink) !== "undefined" && privateSessionLink.startsWith(`https://kagi.com/`)) {
-				window.location.replace(privateSessionLink.replace("%s", searchQuery));
+				window.location.replace(privateSessionLink.replace("%s", searchQuery != null ? searchQuery : ""));
 			}
 		});
 	} else {
